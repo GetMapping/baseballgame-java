@@ -1,9 +1,6 @@
 import java.util.Random;
 
-public class RandomNumberGenerator implements RandomGenerator {
-    RandomNumberGenerator() {
-
-    }
+public class AnotherRandomNumberGenerator implements RandomGenerator {
 
     public int generate() {
         Random random = new Random();
